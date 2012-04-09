@@ -31,16 +31,6 @@ more separate. Each of these packages can be used independently outside of
 Rails. You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
 
-== Helpful Commands
-git status - shows what's changed locally on your machine
-git add - add changed to the commit
-git commit - commit your filed to your local git repo
-git fetch - pull and updates from the team repository
-git pull - pull changes from the team repository/heroku
-git merge master - merger changes from the team repository to your local machine
-git push origin master - push your changes to your personal github repo
-git push heroku master - push changes to the heroku to be displayed on our app
- 
 
 == Getting Started
 
