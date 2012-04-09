@@ -25,9 +25,11 @@ gem 'rails', '3.2.3'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :development, :test do
+   gem 'webrat'
+   gem 'sqlite3', '1.3.5'
+   gem 'rspec-rails', '2.9.0'
+end
 
 group :development do
   gem 'sqlite3', '1.3.5'
